@@ -1,0 +1,26 @@
+{
+  "name": "testdockercicd",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RobinsonBerthet/testDockerCICD#readme",
+  "bugs": {
+    "url": "https://github.com/RobinsonBerthet/testDockerCICD/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinsonBerthet/testDockerCICD.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint":"npx eslint index.js"
+  },
+  "dependencies": {
+    "eslint": "^9.21.0",
+    "express": "^4.21.2"
+  }
+}
